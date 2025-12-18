@@ -775,14 +775,7 @@ class Ft extends HTMLElement {
       </hass-subpage>`;
   }
   _render_iframes() {
-    return u`<a
-        slot="toolbar-icon"
-        href="https://buymeacoffee.com/lovelylain"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <ha-icon-button .label=${"Donate"} .path=${qt}></ha-icon-button>
-      </a>
+    return u`
       ${this._views.map(
       (t, e) => u`<iframe
             ${Wt(this._iframes[e])}
