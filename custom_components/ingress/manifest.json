@@ -1,13 +1,19 @@
 {
   "domain": "ingress",
   "name": "Ingress",
-  "after_dependencies": ["panel_custom"],
-  "codeowners": ["@ginnie-smart"],
+  "after_dependencies": [
+    "panel_custom"
+  ],
+  "codeowners": [
+    "@ginnie-smart"
+  ],
   "config_flow": true,
-  "dependencies": ["http"],
+  "dependencies": [
+    "http"
+  ],
   "documentation": "https://github.com/ginnie-smart/hass_ingress",
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/ginnie-smart/hass_ingress/issues",
   "single_config_entry": true,
-  "version": "1.2.10"
+  "version": "1.2.11"
 }
