@@ -4,6 +4,11 @@
 ${l}</pre>`}return}let u=`
 <iframe ${a?`title="${a}"`:""} src="${r}" allow="fullscreen"></iframe>
 `,f=`
+  :host {
+    display: block;
+    height: 100vh;
+    height: 100dvh;
+  }
   iframe {
     border: 0;
     width: 100%;
